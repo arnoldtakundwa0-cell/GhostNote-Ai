@@ -1,0 +1,7 @@
+
+  "name": "GhostNote-Ai",
+  "short_name": "GhostNote",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000",
+  "theme_color": "#7C3AED"
