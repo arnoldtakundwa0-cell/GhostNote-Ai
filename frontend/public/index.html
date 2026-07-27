@@ -14,3 +14,17 @@
     <div id="root"></div>
   </body>
 </html>
+</body>
+</html>
+<link rel="manifest"...  <-- this is OUTSIDE
+<script>...  <-- this is OUTSIDE
+</script>
+  <link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#7C3AED">
+<script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js');
+}
+</script>
+</body>
+</html>
